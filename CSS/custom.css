@@ -1,3 +1,50 @@
 body{
 	background-color: black;
+	color: white; 
+	padding: 0px;
+	margin: 0px; 
+}
+
+#container{
+	border: solid 1px white;
+	width: 960px;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+#banner{
+	height: 100px;
+}
+
+#title{
+
+}
+
+#smpannel{
+
+}
+
+nav{
+
+}
+nav ul{
+	list-style: none;
+	padding: 0px;
+	border: solid 1px white;
+}
+nav ul li{
+	display: inline-block;
+	border: solid 0px white;
+	width: 23%;
+	text-align: center;
+	height: 30px;
+	padding-top: 8px;
+	font-size: 15pt;
+
+}
+
+nav ul li:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
 }
