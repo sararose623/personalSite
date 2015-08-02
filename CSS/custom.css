@@ -2,13 +2,6 @@ body{
 	
 }
 
-#container{
-	
-}
-
-#banner{
-	
-}
 
 #title{
 	position: absolute;
@@ -32,18 +25,21 @@ nav{
       height: 300px;
       border-radius:150px;
       margin: 5px;
-      text-align: right;
       color: white;
       font-family: century gothic;
-      font-size: 25pt;
+      font-size: 30pt;
+      text-align: right;
+      line-height: 300px;
+
     }
 
-     nav ul li{
-     list-style: none;
-     position: relative;
-    
-
-	}
+     #font{
+     	position: absolute;
+     	right: 50px;
+     	bottom:100px;
+     }
+     
+   
 	#circle1{
 		background-color: rgba(80,5,97,1);
 	}
@@ -63,14 +59,39 @@ nav{
 		
 	}
 
- 	.circle :hover{
-	background-color: black;
-	color: black;
-	cursor: pointer;
+ 	nav a div:hover{
+ 	color: black;
+ 	cursor: crosshair;
 }
 
-footer{
+#sidebar{
+	position: fixed;
+	top: 50%;
+	left: 50px;
+	width:90px;
+	height:250px;
+	border-radius: 10px;
+	border: solid 1px rgb(80,5,97);
+}
+
+#socialMedia{
+	display: block;
+	position: relative;
+	margin: 25px;
+
+}	
+
+#mainArea{
 	position: absolute;
+	right: 150px;
+	top: 500px;
+	border:solid 0px;
+}
+
+
+
+footer{
+	position: fixed;
 	bottom: 15px;
 
 }
